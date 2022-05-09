@@ -55,5 +55,4 @@ function detailFunction(imgs) {
 
     detail.src = "images/" + imgs + ".PNG";
     detail.parentElement.style.display = "block";
-
 }
