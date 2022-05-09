@@ -53,7 +53,7 @@ $(".family-site dt").click(function() {
 function detailFunction(imgs) {
     let detail = document.getElementById("detail-img");
 
-    detail.src = "images/" + imgs + ".png";
+    detail.src = "images/" + imgs + ".PNG";
     detail.parentElement.style.display = "block";
 
 }
